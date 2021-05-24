@@ -17,13 +17,43 @@ namespace Gonzalez_TicTacToe
             InitializeComponent();
         }
 
+
+        //Instatiation of variables to be used in the turn-based code
+        bool PlayerTurn = false;
+        byte PlayerTurn_Count = 0;
+
         private void Btn_A1_Click(object sender, EventArgs e)
         {
 
+            try
+            {
+               
+                // If PlayerTurn = true, it will be X's turn, otherwise it will be O's
+                if (PlayerTurn == true)
+                {
+                    Btn_A1.Text = "X";
+                }
+                else
+                {
+                    Btn_A1.Text = "O";
+                }
+
+                //Invert PlayerTurn value from true -> false, vice versa,
+                //makes alternate turns possible
+                PlayerTurn = !PlayerTurn;
+
+                //PlayerTurn_Count increments, so as to count moves until a maximum is reached
+                PlayerTurn_Count++;
+            }
+            catch
+            {
+
+            }
         }
 
         private void Btn_A2_Click(object sender, EventArgs e)
         {
+
 
         }
 
