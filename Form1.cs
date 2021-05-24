@@ -245,21 +245,21 @@ namespace Gonzalez_TicTacToe
             if ((Btn_A1.Text == Btn_A2.Text) && (Btn_A2.Text == Btn_A3.Text) && (Btn_A1.Text !=""))
             {
                 MessageWinner = true;
-                MessageBox.Show("Win Comb 1 Horizontal");
+
             }
 
             // B1 = B2 = B3 & B1 != " "
             else if ((Btn_B1.Text == Btn_B2.Text) && (Btn_B2.Text == Btn_B3.Text) && (Btn_B1.Text !=""))
             {
                 MessageWinner = true;
-                MessageBox.Show("Win Comb 2 Horizontal");
+
             }
 
             // C1 = C2 = C3 & C1 != " "
             else if ((Btn_C1.Text == Btn_C2.Text) && (Btn_C2.Text == Btn_C3.Text) && (Btn_C1.Text !=""))
             {
                 MessageWinner = true;
-                MessageBox.Show("Win Comb 3 Horizontal");
+
             }
 
             //
@@ -267,24 +267,24 @@ namespace Gonzalez_TicTacToe
             //
 
             // A1 = B1 = C1 & A1 != " "
-            else if ((Btn_A1.Text == Btn_B1.Text) && (Btn_C1.Text == Btn_C1.Text) && (Btn_C1.Text !=""))
+            else if ((Btn_A1.Text == Btn_B1.Text) && (Btn_B1.Text == Btn_C1.Text) && (Btn_C1.Text !=""))
             {
                 MessageWinner = true;
-                MessageBox.Show("Win Comb 1 Vertical");
+
             }
 
             // A2 = B2 = C3 & A2 != " "
             else if ((Btn_A2.Text == Btn_B2.Text) && (Btn_B2.Text == Btn_C2.Text) && (Btn_A2.Text !=""))
             {
              MessageWinner = true;
-                MessageBox.Show("Win Comb 2 Vertical");
+
             }
 
             // A3 = B3 = C3 & A3 != " "
             else if ((Btn_A3.Text == Btn_B3.Text) && (Btn_B3.Text == Btn_C3.Text) && (Btn_A3.Text !=""))
             {
                 MessageWinner = true;
-                MessageBox.Show("Win Comb 3 Vertical");
+
             }
 
             //Diagonal Patterns
@@ -293,14 +293,14 @@ namespace Gonzalez_TicTacToe
             else if ((Btn_A1.Text == Btn_B2.Text) && (Btn_B2.Text == Btn_C3.Text) && (Btn_A1.Text !=""))
             {
                 MessageWinner = true;
-                MessageBox.Show("Win Comb 1 Diagonal");
+
             }
 
             // A3 = B2 = C1 & A3 != " "
             else if ((Btn_A3.Text == Btn_B2.Text) && (Btn_B2.Text == Btn_C1.Text) && (Btn_A3.Text !=""))
             {
                 MessageWinner = true;
-                MessageBox.Show("Win Comb 2 Diagonal");
+
             }
 
             if (MessageWinner == true)
