@@ -17,5 +17,49 @@ namespace Gonzalez_TicTacToe
             InitializeComponent();
         }
 
+        private void Btn_A1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Btn_A2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Btn_A3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Btn_B1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Btn_B2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Btn_B3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Btn_C1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Btn_C2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Btn_C3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
