@@ -264,7 +264,7 @@ namespace Gonzalez_TicTacToe
             //
 
             // A1 = B1 = C1 & A1 != " "
-            else if ((Btn_A1.Text == Btn_B1.Text) && (Btn_C1.Text == Btn_C1.Text) && (Btn_B1.Text !=""))
+            else if ((Btn_A1.Text == Btn_B1.Text) && (Btn_C1.Text == Btn_C1.Text) && (Btn_A1.Text !=""))
             {
                 MessageWinner = true;
             }
@@ -300,11 +300,11 @@ namespace Gonzalez_TicTacToe
                 string WinMsg = " ";
                 if (PlayerTurn == true)
                 {
-                    WinMsg = "X";
+                    WinMsg = "O";
                 }
                 else
                 {
-                    WinMsg = "O";
+                    WinMsg = "X";
                 }
 
                 MessageBox.Show("The winner is" + " " + WinMsg);
