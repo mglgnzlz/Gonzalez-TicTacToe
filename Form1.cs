@@ -53,43 +53,171 @@ namespace Gonzalez_TicTacToe
 
         private void Btn_A2_Click(object sender, EventArgs e)
         {
+            try
+            {
+                if (PlayerTurn == true)
+                {
+                    Btn_A2.Text = "X";
+                }
+                else
+                {
+                    Btn_A2.Text = "O";
+                }
+                PlayerTurn = !PlayerTurn;
+                PlayerTurn_Count++;
+            }
+            catch
+            {
 
+            }
 
         }
 
         private void Btn_A3_Click(object sender, EventArgs e)
         {
+            try
+            {
+                if (PlayerTurn == true)
+                {
+                    Btn_A3.Text = "X";
+                }
+                else
+                {
+                    Btn_A3.Text = "O";
+                }
+                PlayerTurn = !PlayerTurn;
+                PlayerTurn_Count++;
+            }
+            catch
+            {
 
+            }
         }
 
         private void Btn_B1_Click(object sender, EventArgs e)
         {
+            try
+            {
+                if (PlayerTurn == true)
+                {
+                    Btn_B1.Text = "X";
+                }
+                else
+                {
+                    Btn_B1.Text = "O";
+                }
+                PlayerTurn = !PlayerTurn;
+                PlayerTurn_Count++;
+            }
+            catch
+            {
 
+            }
         }
 
         private void Btn_B2_Click(object sender, EventArgs e)
         {
+            try
+            {
+                if (PlayerTurn == true)
+                {
+                    Btn_B2.Text = "X";
+                }
+                else
+                {
+                    Btn_B2.Text = "O";
+                }
+                PlayerTurn = !PlayerTurn;
+                PlayerTurn_Count++;
+            }
+            catch
+            {
 
+            }
         }
 
         private void Btn_B3_Click(object sender, EventArgs e)
         {
+            try
+            {
+                if (PlayerTurn == true)
+                {
+                    Btn_B3.Text = "X";
+                }
+                else
+                {
+                    Btn_B3.Text = "O";
+                }
+                PlayerTurn = !PlayerTurn;
+                PlayerTurn_Count++;
+            }
+            catch
+            {
 
+            }
         }
 
         private void Btn_C1_Click(object sender, EventArgs e)
         {
+            try
+            {
+                if (PlayerTurn == true)
+                {
+                    Btn_C1.Text = "X";
+                }
+                else
+                {
+                    Btn_C1.Text = "O";
+                }
+                PlayerTurn = !PlayerTurn;
+                PlayerTurn_Count++;
+            }
+            catch
+            {
 
+            }
         }
 
         private void Btn_C2_Click(object sender, EventArgs e)
         {
+            try
+            {
+                if (PlayerTurn == true)
+                {
+                    Btn_C2.Text = "X";
+                }
+                else
+                {
+                    Btn_C2.Text = "O";
+                }
+                PlayerTurn = !PlayerTurn;
+                PlayerTurn_Count++;
+            }
+            catch
+            {
 
+            }
         }
 
         private void Btn_C3_Click(object sender, EventArgs e)
         {
+            try
+            {
+                if (PlayerTurn == true)
+                {
+                    Btn_C3.Text = "X";
+                }
+                else
+                {
+                    Btn_C3.Text = "O";
+                }
+                PlayerTurn = !PlayerTurn;
+                PlayerTurn_Count++;
+            }
+            catch
+            {
 
+            }
         }
 
         //
