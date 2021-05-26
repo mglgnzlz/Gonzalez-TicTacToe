@@ -44,6 +44,8 @@ namespace Gonzalez_TicTacToe
 
                 //PlayerTurn_Count increments, so as to count moves until a maximum is reached
                 PlayerTurn_Count++;
+                //Enabled = false so the value cannot be changed once clicked
+                Btn_A1.Enabled = false;
                 CheckWin_Algo();
             }
             catch
@@ -66,6 +68,7 @@ namespace Gonzalez_TicTacToe
                 }
                 PlayerTurn = !PlayerTurn;
                 PlayerTurn_Count++;
+                Btn_A2.Enabled = false;
                 CheckWin_Algo();
             }
             catch
@@ -89,6 +92,7 @@ namespace Gonzalez_TicTacToe
                 }
                 PlayerTurn = !PlayerTurn;
                 PlayerTurn_Count++;
+                Btn_A3.Enabled = false;
                 CheckWin_Algo();
             }
             catch
@@ -111,6 +115,7 @@ namespace Gonzalez_TicTacToe
                 }
                 PlayerTurn = !PlayerTurn;
                 PlayerTurn_Count++;
+                Btn_B1.Enabled = false;
                 CheckWin_Algo();
             }
             catch
@@ -133,6 +138,7 @@ namespace Gonzalez_TicTacToe
                 }
                 PlayerTurn = !PlayerTurn;
                 PlayerTurn_Count++;
+                Btn_B2.Enabled = false;
                 CheckWin_Algo();
             }
             catch
@@ -155,6 +161,7 @@ namespace Gonzalez_TicTacToe
                 }
                 PlayerTurn = !PlayerTurn;
                 PlayerTurn_Count++;
+                Btn_B3.Enabled = false;
                 CheckWin_Algo();
             }
             catch
@@ -177,6 +184,7 @@ namespace Gonzalez_TicTacToe
                 }
                 PlayerTurn = !PlayerTurn;
                 PlayerTurn_Count++;
+                Btn_C1.Enabled = false;
                 CheckWin_Algo();
             }
             catch
@@ -199,6 +207,7 @@ namespace Gonzalez_TicTacToe
                 }
                 PlayerTurn = !PlayerTurn;
                 PlayerTurn_Count++;
+                Btn_C2.Enabled = false;
                 CheckWin_Algo();
             }
             catch
@@ -221,6 +230,7 @@ namespace Gonzalez_TicTacToe
                 }
                 PlayerTurn = !PlayerTurn;
                 PlayerTurn_Count++;
+                Btn_C3.Enabled = false;
                 CheckWin_Algo();
             }
             catch
@@ -232,7 +242,7 @@ namespace Gonzalez_TicTacToe
         //
         //Once executed, the function checks if one of the following conditions is met
         //
-
+        
         public void CheckWin_Algo()
         {
             bool MessageWinner = false;
@@ -322,6 +332,8 @@ namespace Gonzalez_TicTacToe
             {
                 MessageBox.Show("No winners this time :( ");
             }
+
+            
         }
 
     }
