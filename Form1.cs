@@ -326,12 +326,14 @@ namespace Gonzalez_TicTacToe
                 }
 
                 MessageBox.Show("The winner is" + " " + WinMsg);
+                MessageBox.Show("The program will now exit!");
                 Application.Exit();
 
             }
             else if (PlayerTurn_Count == 9)
             {
                 MessageBox.Show("No winners this time :( ");
+                MessageBox.Show("The program will now exit!");
                 Application.Exit();
             }
          
