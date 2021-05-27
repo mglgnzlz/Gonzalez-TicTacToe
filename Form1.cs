@@ -25,8 +25,6 @@ namespace Gonzalez_TicTacToe
         private void Btn_A1_Click(object sender, EventArgs e)
         {
 
-            try
-            {
                
                 // If PlayerTurn = true, it will be X's turn, otherwise it will be O's
                 if (PlayerTurn == true)
@@ -47,17 +45,12 @@ namespace Gonzalez_TicTacToe
                 //Enabled = false so the value cannot be changed once clicked
                 Btn_A1.Enabled = false;
                 CheckWin_Algo();
-            }
-            catch
-            {
 
-            }
         }
 
         private void Btn_A2_Click(object sender, EventArgs e)
         {
-            try
-            {
+
                 if (PlayerTurn == true)
                 {
                     Btn_A2.Text = "X";
@@ -70,18 +63,13 @@ namespace Gonzalez_TicTacToe
                 PlayerTurn_Count++;
                 Btn_A2.Enabled = false;
                 CheckWin_Algo();
-            }
-            catch
-            {
 
-            }
 
         }
 
         private void Btn_A3_Click(object sender, EventArgs e)
         {
-            try
-            {
+
                 if (PlayerTurn == true)
                 {
                     Btn_A3.Text = "X";
@@ -94,17 +82,12 @@ namespace Gonzalez_TicTacToe
                 PlayerTurn_Count++;
                 Btn_A3.Enabled = false;
                 CheckWin_Algo();
-            }
-            catch
-            {
 
-            }
         }
 
         private void Btn_B1_Click(object sender, EventArgs e)
         {
-            try
-            {
+
                 if (PlayerTurn == true)
                 {
                     Btn_B1.Text = "X";
@@ -117,17 +100,12 @@ namespace Gonzalez_TicTacToe
                 PlayerTurn_Count++;
                 Btn_B1.Enabled = false;
                 CheckWin_Algo();
-            }
-            catch
-            {
 
-            }
         }
 
         private void Btn_B2_Click(object sender, EventArgs e)
         {
-            try
-            {
+
                 if (PlayerTurn == true)
                 {
                     Btn_B2.Text = "X";
@@ -140,17 +118,12 @@ namespace Gonzalez_TicTacToe
                 PlayerTurn_Count++;
                 Btn_B2.Enabled = false;
                 CheckWin_Algo();
-            }
-            catch
-            {
 
-            }
         }
 
         private void Btn_B3_Click(object sender, EventArgs e)
         {
-            try
-            {
+
                 if (PlayerTurn == true)
                 {
                     Btn_B3.Text = "X";
@@ -163,17 +136,12 @@ namespace Gonzalez_TicTacToe
                 PlayerTurn_Count++;
                 Btn_B3.Enabled = false;
                 CheckWin_Algo();
-            }
-            catch
-            {
 
-            }
         }
 
         private void Btn_C1_Click(object sender, EventArgs e)
         {
-            try
-            {
+
                 if (PlayerTurn == true)
                 {
                     Btn_C1.Text = "X";
@@ -186,17 +154,12 @@ namespace Gonzalez_TicTacToe
                 PlayerTurn_Count++;
                 Btn_C1.Enabled = false;
                 CheckWin_Algo();
-            }
-            catch
-            {
 
-            }
         }
 
         private void Btn_C2_Click(object sender, EventArgs e)
         {
-            try
-            {
+
                 if (PlayerTurn == true)
                 {
                     Btn_C2.Text = "X";
@@ -209,17 +172,11 @@ namespace Gonzalez_TicTacToe
                 PlayerTurn_Count++;
                 Btn_C2.Enabled = false;
                 CheckWin_Algo();
-            }
-            catch
-            {
-
-            }
         }
 
         private void Btn_C3_Click(object sender, EventArgs e)
         {
-            try
-            {
+
                 if (PlayerTurn == true)
                 {
                     Btn_C3.Text = "X";
@@ -232,11 +189,7 @@ namespace Gonzalez_TicTacToe
                 PlayerTurn_Count++;
                 Btn_C3.Enabled = false;
                 CheckWin_Algo();
-            }
-            catch
-            {
-
-            }
+  
         }
 
         //
